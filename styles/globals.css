@@ -8,7 +8,8 @@ body {
   padding: 0;
   margin: 0;
   font-family: "Bifocals", sans-serif;
-  background-color: #eea29a;
+  background-color: #eee;
+  color: #222;
 }
 
 a {

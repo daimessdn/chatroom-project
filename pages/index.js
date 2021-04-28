@@ -1,6 +1,8 @@
-import Head from 'next/head'
-import Image from 'next/image'
-import styles from '../styles/Home.module.css'
+import Head from 'next/head';
+import Image from 'next/image';
+import Link from 'next/link';
+
+import styles from '../styles/Home.module.css';
 
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
@@ -18,7 +20,9 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
-        Hello
+        <Link href="/chat">
+          <a>Hello</a>
+         </Link>
       </main>
 
       <footer className={styles.footer}>
