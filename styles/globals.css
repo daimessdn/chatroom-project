@@ -14,3 +14,14 @@ a {
 * {
   box-sizing: border-box;
 }
+
+nav {
+  display: flex;
+  flex-align: flex-end;
+  font-size: 1em;
+  align-items: center;
+}
+
+nav * {
+  padding: 10px;
+}
