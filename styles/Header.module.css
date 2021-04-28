@@ -1,0 +1,78 @@
+.subtitleSection {
+  max-width: 500px;
+  min-width: 100%;
+
+  font-size: 1.2em;
+
+  display: flex;
+  flex-direction: column;
+}
+
+.chatSubtitleLeft {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-end;
+  margin-top: .5em;
+  text-align: left;
+}
+
+.chatSubtitleLeft p {
+  width: max-content;
+  background-color: #c94c4c;
+  border-radius: .5em .5em .5em 0;
+  color: #fff;
+  padding: .5em;
+  margin: 0 5px;
+}
+
+.chatSubtitleLeft .profileChatDemo {
+  left: -40px;
+  bottom: 0;
+}
+
+.profileChatDemo {
+  position: absolute;
+  border-radius: 50%;
+  width: 40px;
+  height: 40px;
+  user-select: none;
+}
+
+.chatSubtitleRight {
+  position: relative;
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  margin-top: .5em;
+  text-align: right;
+}
+
+.chatSubtitleRight p {
+  width: max-content;
+  background-color: #d64161;
+  border-radius: .5em .5em 0 .5em;
+  color: #fff;
+  padding: .5em;
+  margin: 0 5px;
+}
+
+.chatSubtitleRight .profileChatDemo {
+  right: -40px;
+  bottom: 0;
+}
+
+/*.arrowLeft {
+  position: absolute;
+
+  left: -3px;
+  bottom: 0px;
+
+  width: 0;
+  height: 0;
+  border-style: solid;
+  border-width: 20px 0 0 20px;
+  border-color: transparent transparent transparent #007bff;
+}*/
