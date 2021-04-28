@@ -15,7 +15,14 @@ const Header = () => {
             src="/img/profiledemo2.jpg"
             alt="profile demo 1"
            />
-          <p>Chatroom lets you communicate with people.</p>
+          <div className={styles.chat}>
+            <p className={styles.user}>Anna</p>
+            <p className={styles.sentAt}>8:10</p>
+
+            <p className={styles.clear}></p>
+            
+            <p className={styles.content}>Chatroom lets you communicate with people.</p>
+          </div>
         </div>
 
         <div className={styles.chatSubtitleRight}>
@@ -24,7 +31,14 @@ const Header = () => {
             src="/img/profiledemo1.jpg"
             alt="profile demo 2"
            />
-          <p>And also a wonderful place to make a discussion.</p>
+          <div className={styles.chat}>
+            <p className={styles.user}>Harold</p>
+            <p className={styles.sentAt}>8:12</p>
+
+            <p className={styles.clear}></p>
+
+            <p className={styles.content}>And also a wonderful place to make a discussion.</p>
+          </div>
         </div>
 
         <div className={styles.chatSubtitleLeft}>
@@ -33,7 +47,14 @@ const Header = () => {
             src="/img/profiledemo2.jpg"
             alt="profile demo 1"
            />
-          <p>Absolutely, Harold! Why don't you also join with us?</p>
+          <div className={styles.chat}>
+            <p className={styles.user}>Anna</p>
+            <p className={styles.sentAt}>8:12</p>
+
+            <p className={styles.clear}></p>
+
+            <p className={styles.content}>Absolutely, Harold! Why don't you also join with us?</p>
+          </div>
         </div>
 
         <div className={styles.chatSubtitleRight}>
@@ -42,7 +63,14 @@ const Header = () => {
             src="/img/profiledemo1.jpg"
             alt="profile demo 2"
            />
-          <p>You're right, Anna! Let's join us by clicking the link below.</p>
+          <div className={styles.chat}>
+            <p className={styles.user}>Harold</p>
+            <p className={styles.sentAt}>8:13</p>
+
+            <p className={styles.clear}></p>
+
+            <p className={styles.content}>You're right, Anna! Let's join us by clicking the link below.</p>
+          </div>
         </div>
       </div>
     </header>

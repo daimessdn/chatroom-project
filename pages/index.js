@@ -18,13 +18,11 @@ export default function Home() {
       <Header />
 
       <main className={styles.main}>
+        Hello
       </main>
 
       <footer className={styles.footer}>
-        Powered by{' '}
-        <span className={styles.logo}>
-          <Image src="/vercel.svg" alt="Vercel Logo" width={72} height={16} />
-        </span>
+        Powered by Mintbean
       </footer>
     </div>
   )
