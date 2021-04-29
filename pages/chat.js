@@ -1,3 +1,6 @@
+import Link from "next/link";
+
+import Navbar from "../components/Navbar";
 import Room from "../components/Room";
 import Conversation from "../components/Conversation";
 
@@ -16,9 +19,17 @@ const conversation = [
 
 const Chat = () => {
   return (
-    <div className={styles.chatInterface}>
-      <Room rooms={rooms} />
-      <Conversation conversation={conversation} />
+    <div>
+      <Navbar isSignedIn={true} />
+
+      <Link href="/">
+        <a>Logout</a>
+      </Link>
+
+      <div className={styles.chatInterface}>
+        <Room rooms={rooms} />
+        <Conversation conversation={conversation} />
+      </div>
     </div>
   );
 }
