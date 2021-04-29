@@ -12,11 +12,15 @@ const Navbar = ({isSignedIn}) => {
     </div>
   );
 
+  const logoUrl = isSignedIn ? "/chat" : "/"
+
   console.log(isSignedIn);
 
 	return (
     <nav>
-      <h1>Chatroom</h1>
+      <Link href={logoUrl}>
+        <a><h1>Nextroom</h1></a>
+      </Link>
 
       {navStatus}
     </nav>

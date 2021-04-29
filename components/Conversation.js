@@ -4,7 +4,9 @@ import chatStyles from "../styles/Conversation.module.css";
 const Conversation = ({conversation}) => {
   return (
     <div className={styles.roomConversation}>
-      <h1>Conversation</h1>
+      <div className={styles.groupName}>
+        <h1>Conversation</h1>
+      </div>
 
       {
         conversation.map((chat) => (
@@ -20,6 +22,11 @@ const Conversation = ({conversation}) => {
           </div>
         ))
       }
+
+      <div className={styles.messageField}>
+        <input type="text" />
+        <button>Send</button>
+      </div>
     </div>
   );
 }

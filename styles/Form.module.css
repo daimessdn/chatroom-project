@@ -1,0 +1,12 @@
+.formField {
+  display: flex;
+  flex-direction: column;
+  margin: .5em;
+}
+
+.formField input, .formField button {
+  padding: .5em;
+  border: none;
+  font-family: "Bifocals";
+  border-radius: .5em;
+} 

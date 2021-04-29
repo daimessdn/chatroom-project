@@ -22,10 +22,6 @@ const Chat = () => {
     <div>
       <Navbar isSignedIn={true} />
 
-      <Link href="/">
-        <a>Logout</a>
-      </Link>
-
       <div className={styles.chatInterface}>
         <Room rooms={rooms} />
         <Conversation conversation={conversation} />

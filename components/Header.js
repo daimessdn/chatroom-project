@@ -6,7 +6,7 @@ import styles from "../styles/Header.module.css";
 const Header = () => {
   return (
     <header>
-      <h1>Welcome to chatroom!</h1>
+      <h1>Welcome to Nextroom!</h1>
 
       <div className={styles.subtitleSection}>
         <div className={styles.chatSubtitleLeft}>

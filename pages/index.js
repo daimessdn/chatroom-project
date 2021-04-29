@@ -6,13 +6,14 @@ import styles from '../styles/Home.module.css';
 
 import Navbar from "../components/Navbar";
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Chatroom App</title>
-        <meta name="description" content="Chatroom App" />
+        <title>Nextroom</title>
+        <meta name="description" content="Nextroom - chatroom app using next" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
@@ -25,9 +26,7 @@ export default function Home() {
          </Link>
       </main>
 
-      <footer className={styles.footer}>
-        Powered by Mintbean
-      </footer>
+      <Footer />
     </div>
   )
 }

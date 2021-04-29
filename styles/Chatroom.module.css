@@ -1,19 +1,26 @@
 .chatInterface {
   display: flex;
   width: 80%;
-  height: 80%;
+  min-height: 100%;
+  max-height: 100%;
   margin: 0 auto;
-}
-
-.chatInterface * {
-  margin: 0;
 }
 
 .roomList {
   width: 25%;
   background: #6b5b95;
   color: #fff;
-  padding: 1em;
+
+  margin: 10px 5px;
+  border-radius: .5em;
+}
+
+.roomTitle {
+  padding: .5em .5em 0 .5em;
+}
+
+.roomTitle h1 {
+  margin: 0;
 }
 
 .roomList ul {
@@ -24,7 +31,7 @@
 
 .roomItem {
   padding: .5em;
-  margin-top: 10px;
+  margin: .5em;
   background-color: #034f84;
   min-height: 5em;
   border-radius: .5em;
@@ -35,5 +42,46 @@
   width: 75%;
   background: #878f99;
   color: #fff;
-  padding: 1em;
+  position: relative;
+
+  margin: 10px 5px;
+  border-radius: .5em;
+}
+
+.groupName {
+  padding: .5em;
+  width: 100%;
+  background-color: #222;
+  color: #fff;
+
+  border-radius: .5em;
+}
+
+.groupName h1 {
+  margin: 0;
+}
+
+.messageField {
+  display: flex;
+  flex-direction: row;
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+}
+
+.messageField * {
+  font-family: "Bifocals";
+
+  margin: .5em;
+  border: none;
+  border-radius: .5em;
+  padding: .5em;
+}
+
+.messageField input {
+  flex-grow: 4;
+}
+
+.messageField button {
+  flex-grow: 1;
 }
