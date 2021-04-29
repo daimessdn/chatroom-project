@@ -18,12 +18,12 @@ const Signup = () => {
         <form className="">
           <div className={styles.formField}>
             <label htmlFor="usename">Username</label>
-            <input type="text" name="username" placeHolder="Username" />
+            <input type="text" name="username" placeholder="Username" />
           </div>
 
           <div className={styles.formField}>
             <label htmlFor="password">Password</label>
-            <input type="password" name="password" placeHolder="Password" />
+            <input type="password" name="password" placeholder="Password" />
           </div>
 
           <div className={styles.formField}>
