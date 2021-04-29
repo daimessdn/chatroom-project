@@ -1,16 +1,39 @@
 .chatInterface {
   display: flex;
   width: 80%;
-  margin: 0 auto;
   height: 80%;
+  margin: 0 auto;
+}
+
+.chatInterface * {
+  margin: 0;
 }
 
 .roomList {
   width: 25%;
-  background: blue;
+  background: #6b5b95;
+  color: #fff;
+  padding: 1em;
+}
+
+.roomList ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.roomItem {
+  padding: .5em;
+  margin-top: 10px;
+  background-color: #034f84;
+  min-height: 5em;
+  border-radius: .5em;
+  border: 1px solid #fff;
 }
 
 .roomConversation {
   width: 75%;
-  background: yellow;
+  background: #878f99;
+  color: #fff;
+  padding: 1em;
 }
